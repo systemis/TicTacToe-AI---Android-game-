@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorDen">#000</color>
+    <color name="color_wood">#9E794C</color>
+    <color name="colorBackgroundSelectModeScreen">#ecded9d2</color>
+    <color name="colorBackground_DialogSelectChoiceMode">#FAF9F7</color>
+    <color name="TitleColor_DialogSelectChoiceMode">#ff9a17</color>
+    <color name="colorTrang">#fff</color>
+</resources>

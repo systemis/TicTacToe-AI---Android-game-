@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">"Tic Tac Toe "</string>
+
+    <array name="Time_To_Play">
+
+        <item>1 phut</item>
+        <item>10 phut</item>
+        <item>20 phut</item>
+
+    </array>
+</resources>

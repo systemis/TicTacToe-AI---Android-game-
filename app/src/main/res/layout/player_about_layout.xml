@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+
+    android:layout_below="@+id/toolbar_board_s_play"
+
+    android:paddingTop="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="2dp"
+
+    android:background="@drawable/style_background_players_manager_layout"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:src="@mipmap/flag_x"
+                    android:id="@+id/show_flags1"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/show_test_timer_player1"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    />
+
+
+
+            </LinearLayout>
+
+        <TextView
+            style="@style/Style_TXT_ShowNamePlayer"
+            android:text="Thinh"
+            android:id="@+id/showPlayerName1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            style="@style/Style_TXT_ShowNamePlayer"
+            android:text="Com"
+            android:id="@+id/showPlayerName2"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/flag_o"
+                android:id="@+id/show_flags2"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_test_timer_player2"
+                android:textColor="#000"
+                android:textSize="18dp"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            style="@style/Style_TXT_ShowWinTime"
+            android:text="2"
+            android:layout_gravity="center"
+            android:id="@+id/show_win1"
+            android:textSize="20dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <ImageButton
+
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textSize="19dp"
+            android:text="VS"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/menu_icon"
+            android:scaleType="fitCenter"
+            android:onClick="ShowToolsClick"
+
+            />
+
+
+
+        <TextView
+            style="@style/Style_TXT_ShowWinTime"
+            android:text="2"
+            android:textSize="19dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/show_win2"/>
+
+    </LinearLayout>
+</RelativeLayout>

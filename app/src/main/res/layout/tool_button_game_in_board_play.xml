@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="190dp"
+    android:layout_height="60dp"
+    android:background="@mipmap/popu_window_background"
+    android:padding="20dp"
+    android:gravity="center">
+
+
+
+    <ImageButton
+
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="19dp"
+        android:text="VS"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:src="@mipmap/pause_icon"
+        android:id="@+id/reset_button"
+        android:scaleType="fitCenter"
+
+        />
+
+
+    <ImageButton
+
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="19dp"
+        android:text="VS"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:src="@mipmap/sound_on"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="20dp"
+        android:onClick="OffSoundAction"
+        android:id="@+id/btn_onSound"
+        />
+
+
+    <ImageButton
+
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="19dp"
+        android:text="VS"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:src="@mipmap/home_icon"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/imageButton"
+        android:onClick="BackHomeAction"/>
+
+
+</LinearLayout>

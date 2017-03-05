@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_show_board">40dp</dimen>
+    <dimen name="width_show_flag_amout">28dp</dimen>
+    <dimen name="height_player">85dp</dimen>
+    <dimen name="height_player_2">95dp</dimen>
+</resources>

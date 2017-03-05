@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:minHeight="200dp"
+    android:layout_gravity="center"
+    android:background="@color/colorBackground_DialogSelectChoiceMode"
+    >
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorDen"
+        android:text="Nhập tên hai người chơi"
+        android:layout_marginBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="20dp"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/ts_x_flag"
+                android:layout_gravity="center"/>
+
+            <EditText
+                style="@style/Style_EditText_ImportPlayerName"
+                android:id="@+id/et_importPlayerName1"
+                android:maxLength="10"
+                android:hint="Ten nguoi choi 1"
+                android:background="@drawable/custom_border_edittext"
+                android:padding="15dp"
+
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/ts_o_flag"
+                android:layout_gravity="center"/>
+
+            <EditText
+                style="@style/Style_EditText_ImportPlayerName"
+                android:maxLength="10"
+                android:hint="Ten nguoi choi 2"
+                android:id="@+id/et_importPlayerName2"
+                android:background="@drawable/custom_border_edittext"
+                android:padding="15dp"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            style="@style/Style_ButtonOk_Dialog"
+            android:id="@+id/btn_importPlayerName"
+            />
+
+        <Button
+            style="@style/Style_ButtonCancel_Dialog"
+            android:id="@+id/btn_CancelimportPlayerName"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
