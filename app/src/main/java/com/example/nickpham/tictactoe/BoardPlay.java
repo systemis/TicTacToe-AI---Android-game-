@@ -634,5 +634,4 @@ public class BoardPlay extends AppCompatActivity implements View.OnClickListener
             }
         }
     }
-
 }
